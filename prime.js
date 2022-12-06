@@ -11,7 +11,8 @@ function checkprime(num){
         return false;
     }
 }
-for(let i=1; i<=50; i++){
+let number = 30
+for(let i=1; i<=number; i++){
     let ans = checkprime(i);
     if(ans==true){
         console.log(i,"It is prime");
