@@ -9,11 +9,11 @@ function printPrimes(num){
                 factor++;
             }
         }
-        if(factor==200){
+        if(factor==2){
             console.log(i, "is prime");
         }
     }
 }
 
 
-printPrimes(50)
+printPrimes(num)
